@@ -1,11 +1,13 @@
 Package: MPLasso
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Microbiome Association Inference with Prior Knowledge
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Chieh Lo
+Maintainer: Chieh Lo <chiehl@andrew.cmu.edu>
+Description: This package incorporates prior knowledge from scientific literature
+	and utilize graphical Lasso to infer the associations among microbes.
+Depends: R (>= 3.3.1)
+License: GPL-3
 LazyData: TRUE
 RoxygenNote: 6.0.1
 Imports:
